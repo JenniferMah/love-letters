@@ -1,0 +1,71 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', 'Quicksand', sans-serif;
+  background-color: #800020;
+}
+
+.postcard {
+  width: 800px;
+  height: 500px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  box-shadow: .8em .8em 15px rgba(0,0,0,.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #f7f7f7;
+  margin-bottom: 15px;
+}
+
+p {
+  display: inline;
+  font-size: 1.3em;
+}
+
+
+.mail_stamp {
+  width: 100px;
+  float: right;
+}
+
+#address {
+  text-decoration: underline;
+}
+
+#message{
+  height: 10em;
+  width: 17em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.push{
+  margin-bottom: 1em;
+  margin-top: .5em;
+}
+
+#recipient_email{
+  margin-top: 4.5em;
+  margin-bottom: 1.5em;
+}
+
+

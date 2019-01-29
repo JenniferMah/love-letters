@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+} 
+
+body{
+  display:grid;
+    grid-template-columns: .5fr .3fr .5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "one two three"
+    "five five five" ;
+}
+img{
+  padding-top: 3%;
+  max-width: 100%;
+}
+#git{
+  grid-area: one;
+}
+#bash{
+  max-width: 38%;
+  grid-area: five;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#github{
+  grid-area: three;
+}
