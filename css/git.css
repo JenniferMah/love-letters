@@ -18,7 +18,7 @@ body {
   margin-top: 5%;
   border-radius: 2%;
   padding: 2%;
-  padding-bottom: 9%;
+  padding-bottom: 12%;
   box-shadow: .8em .8em 15px rgba(0,0,0,.3);
 
 }
@@ -54,9 +54,9 @@ h1 {
     grid-area: from;
 }
 #message{
-  font-size: 120%;
+  font-size: 119%;
   grid-area: note;  
-  margin-right: 10%;
+  margin-right: 7%;
 }
 
 #address {
