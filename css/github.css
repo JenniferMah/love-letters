@@ -1,65 +1,78 @@
-body{
-    overflow:hidden;
+#front {
+  z-index: 1;
+  position: absolute;
+  background-color: #0b6570;
+  width:590px;
+  height: 610px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 5%;
 }
 
-#flipbook{
-    width:400px;
-    height:300px;
+.open-card {
+  transform: rotateY(180deg);
 }
 
-#flipbook .page{
-    width:400px;
-    height:300px;
-    background-color:white;
-    line-height:300px;
-    font-size:20px;
-    text-align:center;
+#front-title {
+  max-width: 90%;
+  padding-bottom: 3%;
 }
 
-#flipbook .page-wrapper{
-    -webkit-perspective:2000px;
-    -moz-perspective:2000px;
-    -ms-perspective:2000px;
-    -o-perspective:2000px;
-    perspective:2000px;
+#front-pic {
+  max-width: 75%;
+  padding-bottom: 50px;
 }
 
-#flipbook .hard{
-    background:#ccc !important;
-    color:#333;
-    -webkit-box-shadow:inset 0 0 5px #666;
-    -moz-box-shadow:inset 0 0 5px #666;
-    -o-box-shadow:inset 0 0 5px #666;
-    -ms-box-shadow:inset 0 0 5px #666;
-    box-shadow:inset 0 0 5px #666;
-    font-weight:bold;
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: white;
+  width: 590px;
+  height: 610px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 5%;
 }
 
-#flipbook .odd{
-    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
-    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
-    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
-    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
-    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
-    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
-    -webkit-box-shadow:inset 0 0 5px #666;
-    -moz-box-shadow:inset 0 0 5px #666;
-    -o-box-shadow:inset 0 0 5px #666;
-    -ms-box-shadow:inset 0 0 5px #666;
-    box-shadow:inset 0 0 5px #666;
-    
+#inside-recipient {
+  color: #000;
+  font-size: 12pt;
+  padding: 20px 0 40px 0;
 }
 
-#flipbook .even{
-    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
-    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
-    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
-    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
-    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
-    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
-    -webkit-box-shadow:inset 0 0 5px #666;
-    -moz-box-shadow:inset 0 0 5px #666;
-    -o-box-shadow:inset 0 0 5px #666;
-    -ms-box-shadow:inset 0 0 5px #666;
-    box-shadow:inset 0 0 5px #666;
+#inside-pic {
+  width: auto;
+  height: 150px;
+  margin-bottom: 32px;
+}
+
+#message {
+  color: #30603a;
+  font-size: 12pt;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+#inside-sender {
+  color: #000;
+  font-size: 12pt;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+
+body {
+  background-color: #800000;
+  font-family: 'Shadows Into Light Two', cursive;
+
 }
