@@ -57,7 +57,6 @@
 }
 
 #message {
-  color: #30603a;
   font-size: 12pt;
   text-align: center;
   padding: 0 20px 0 20px;
@@ -72,7 +71,23 @@
 
 
 body {
-  background-color: #800000;
   font-family: 'Shadows Into Light Two', cursive;
 
+  background: linear-gradient(-45deg, white, #fee4e1, #b4d3dd, #bab4dd);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+ 
 }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
