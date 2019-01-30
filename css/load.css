@@ -8,7 +8,7 @@
 
 } 
 
-body{
+main{
   display:grid;
     grid-template-columns: .5fr .3fr .5fr;
     grid-template-rows: 1fr 1fr;
