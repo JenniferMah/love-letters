@@ -3,7 +3,7 @@
   position: absolute;
   background-color: #0b6570;
   width:590px;
-  height: 610px;
+  height: 620px;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
@@ -26,7 +26,6 @@
 
 #front-pic {
   max-width: 75%;
-  padding-bottom: 50px;
 }
 
 #inside {
@@ -34,7 +33,7 @@
   position: absolute;
   background-color: white;
   width: 590px;
-  height: 610px;
+  height: 620px;
   text-align: center;
   border: 1px solid #000;
   margin-left: auto;
